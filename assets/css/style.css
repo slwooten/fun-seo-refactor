@@ -26,8 +26,8 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-/* Changed .header to just header and .div to nav to match semantic value in HTML */
-header nav {
+/* Converted ul>li to nav */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -35,16 +35,19 @@ header nav {
     font-size: 20px;
 }
 
-header nav a {
-    list-style-type: none;
+nav a {
     display: inline-block;
     margin-left: 25px;
-    color: #ffffff;
-    text-decoration: none;
+}
+
+nav a:hover {
+    color: #d9dcd6;
+    border-bottom: 4px dotted #d9dcd6;
 }
 
 a {
-    
+    color: #ffffff;
+    text-decoration: none;
 }
 
 p {
